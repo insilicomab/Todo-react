@@ -1,5 +1,3 @@
-import React from "react";
-
 export const IncompleteTodos = (props) => {
   const { incompleteTodos, completeTodo, deleteTodo } = props;
   return (

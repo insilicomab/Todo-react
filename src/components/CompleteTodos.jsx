@@ -1,5 +1,3 @@
-import React from "react";
-
 export const CompleteTodos = (props) => {
   const { completeTodos, backIncomplete } = props;
   return (

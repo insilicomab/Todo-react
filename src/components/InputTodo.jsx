@@ -1,5 +1,3 @@
-import React from "react";
-
 export const InputTodo = (props) => {
   const { todoText, changeTodoText, addTodo } = props;
   return (
