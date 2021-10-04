@@ -50,8 +50,11 @@ export const App = () => {
         todoText={todoText}
         changeTodoText={changeTodoText}
         addTodo={addTodo}
+        disabled={incompleteTodos.length >= 5}
       />
-
+      {incompleteTodos.length >= 5 && (
+        <p style={{ color: "red" }}>登録できるToDoは5個までです。</p>
+      )}
       <IncompleteTodos
         incompleteTodos={incompleteTodos}
         completeTodo={completeTodo}
